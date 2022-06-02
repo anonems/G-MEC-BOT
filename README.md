@@ -1,9 +1,9 @@
 # G-MEC-BOT
 Robot interactif, intervient pour apporter de l'aide aux nouveaux étudiants en bachelor developpement web au sein d'Hetic.
 
-Ce robot à été crée dans le cadre de notre dormation de développeur web chez HETIC, encadré par Janin Loïc.
+Ce robot à été crée dans le cadre de notre formation de développeur web chez HETIC, encadré par Janin Loïc.
 
-Il nous ai demander de crée un bot qui doit mener une discussion avec le(la) nouvel(le) etudiant(e), afin de filtrer et apporter un réponse précise à sa demande.
+Il nous est demandé de crée un bot qui doit mener une discussion avec le(la) nouvel(le) etudiant(e), afin de filtrer et apporter un réponse précise à sa demande.
 
 Nous proposont alors en groupe de quatre, le robot discord G-MEC, qui regroupe les fonctionnalitées suivantes :
   
