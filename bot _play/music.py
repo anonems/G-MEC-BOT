@@ -24,13 +24,13 @@ ytdl = youtube_dl.YoutubeDL()
 
 @bot.event
 async def on_member_join(member):
-    general_channel: discord.TextChannel = bot.get_channel(978233374785294349)
+    general_channel: discord.TextChannel = bot.get_channel(token)
     await general_channel.send(content=f"Bienvenue sur le serveur {member.mention} :)")
 
 
 @bot.event
 async def on_menber_remove(member):
-    channel = bot.get_channel(978233374785294349)
+    channel = bot.get_channel(token)
     await channel.send(f"merci de votre visite à biento {member.mention} :)")
 
 
@@ -106,4 +106,4 @@ async def play(ctx, url):
         play_song(client, musics[ctx.guild], video)
 
 
-bot.run("OTc4MjI4ODc2NTYyMDEwMTUz.GcH_dN.olEU5A-uZgSatRI8d7QtpM_5ET88Zp21U36hAw")
+bot.run(token)
